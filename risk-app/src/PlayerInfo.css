@@ -1,0 +1,25 @@
+
+.Header_Player_info{
+    display: flex;
+    flex-direction:  column;
+    /* justify-content: space-between; */
+    /* padding: 50px 0px 50px; */
+    
+}
+
+.top_box_Player_info{
+    display: flex;
+    padding: 180px;
+    padding-bottom: 215px; 
+    border-style: solid;
+    
+    
+}
+
+.top_down_Player_info{
+    display: flex;
+    padding: 180px;
+     padding-bottom: 120px; 
+    /* padding: 110px; */
+     border-style: solid;
+}

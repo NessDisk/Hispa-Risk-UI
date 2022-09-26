@@ -1,0 +1,15 @@
+.Header-map{
+    display: flex;
+    justify-content:center;
+    /* margin: 6%; */
+    size: 115%;
+    /* padding-top: 20px; */
+}
+
+
+.img{
+    /* display: flex; */
+    height: 100%;
+    width: 100%;
+    
+}
