@@ -13,12 +13,10 @@ function App() {
       <Switch>
       <Route path="/home" >
         <Home/>
-        </Route>
-        <Route path="/" >
-            <Board/>
-            {/* <PlayerInfo/> */}
-          
-        </Route>
+      </Route>
+      <Route path="/" >
+        <Board/>          
+      </Route>
         </Switch>
       </Router>
       </header>

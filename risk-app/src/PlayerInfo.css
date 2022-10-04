@@ -4,22 +4,60 @@
     flex-direction:  column;
     /* justify-content: space-between; */
     /* padding: 50px 0px 50px; */
-    
+    margin-left: 5px;
+
 }
 
 .top_box_Player_info{
     display: flex;
-    padding: 180px;
-    padding-bottom: 215px; 
+    flex-direction: column;
+    align-items:flex-start ;
+    height: 300px;
+    width: 240px;
+    /* padding-bottom: 215px;  */
     border-style: solid;
+    margin-bottom: 5px;
     
     
 }
 
 .top_down_Player_info{
     display: flex;
-    padding: 180px;
-     padding-bottom: 120px; 
+    flex-direction: column;
+    align-items:flex-start ;
+    height: 222px;
+    width: 230px;
+    padding-left: 10px;
+     /* padding-bottom: 120px;  */
     /* padding: 110px; */
      border-style: solid;
+}
+
+.DiceInfo-topBox-Player_info{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    width: 100px;
+    padding-left: 25px;
+    margin-left: 10px;
+ }
+
+ .vs-word-Player_info{
+    margin-inline: 10px;
+ }
+
+
+.Button-bottomBox-Player_info{
+   display: flex;
+   flex-direction: row;
+   padding-left: 10px;
+}
+
+.Brush-map-B1{
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.Clear-map-B2{
+    margin-right: 100px;
 }

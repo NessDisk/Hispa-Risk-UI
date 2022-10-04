@@ -5,65 +5,71 @@
     top: 0;
     overflow: hidden;
     position: fixed;
-    /* overflow:hidde */
-    /* align-items:flex-start; */
 }
 
 .Tittle-home-top{
     border-style: solid;
     padding: 50px;
     margin: 20px;
-    
-
 }
 
 .Body_home_rooms{
     display: flex;
     flex-direction: row;
-    padding: 200px;
     justify-content: space-around;
     margin-top: 30px;
-    /* align-items: center; */
 }
 
 .new_Room_Box_leftbox{
-
     border-style: solid;
-    /* height: 100%;
-    width: 100%;
-    left: 0;
-    top: 0; */
-    /* overflow: hidden; */
-    /* padding: 200px; */
-    /* position: fixed; */
     display: flex;
-    align-items:flex-end;
-    height: 200px;
-    width: 200px;
-    /* padding-inline-start: 200px; */
-    /* padding-inline-end: 200px; */
-    /* padding-inline: 200px; */
-    /* padding-block: 200px ; */
-    /* display: flex; */
-    /* display: flexbox; */
-    /* flex-flow: ; */
- 
-    /* flex: 1; */
-
-    /* padding-left: 400px;
-    padding-right: 400px;
-    padding-bottom: 400px;    */
-
+    align-items:flex-start;
+    height: 450px;
+    width: 650px;
 }
 
 .button_test{
-
+    margin-left: 20px;
+    margin-top: 10px;
 }
 
 .enter_rooms_rightbox{
     border-style: solid;
-    /* padding: 200px; */
-    /* padding-left: 400px;
-    padding-right: 450px;  */
-        /* /* padding-inline-end: 400px; */
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    height: 450px;
+    width: 650px;
+}
+
+.room_Tittle{
+    margin-left: 20px;
+    margin-top: 10px;
+    border-style: solid;
+    padding-inline: 100px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+}
+
+.name_Roon_list_Home{
+    border-style: solid;
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 290px;
+    width: 550px;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding: 10px;
+}
+
+.join_Roon_boton_Home{
+    
+    margin-left: 20px;
+    margin-top: 20px;
+    position: relative;
+    padding-inline: 30px;
+    right: -450px;
 }
